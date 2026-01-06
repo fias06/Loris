@@ -13,7 +13,11 @@ mkdocs:
 build:
   os: ubuntu-24.04
   tools:
+<<<<<<< HEAD
     python: "3.11"
+=======
+    python: 3.7
+>>>>>>> 258394e26 ([Meta] Hopefully fix readthedocs building (#10244))
 
 python:
   install:
