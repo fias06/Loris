@@ -11,6 +11,7 @@ changes in the following format: PR #1234***
 ## LORIS 28.0 (Release Date: 2026-02-27)
 ### Core
 #### Summary
+<<<<<<< HEAD
 The LORIS 28 release primarily adds multilingual support, although is also includes
 other improvements such as
 - Add dicom upload to API
@@ -18,6 +19,11 @@ other improvements such as
 - Add infrastructure to track user decisions to policies 
 - Add Support for TOTP / 2FA
 
+=======
+- Minor release after v27 release
+#### Updates and Improvements
+- [docs] Update login page Setup Guide link to readthedocs (PR #7071)
+>>>>>>> 0c0f39076 ([docs] Update Loris login page to point to Markdown docs Setup Guide (#10239))
 ### Notes For Existing Projects
 
 Upgrading LORIS requires following the upgrade process each major and minor release (bug fix releases can be script) to ensure the schema is up to date.
